@@ -30,7 +30,7 @@
           printf("Parent process!\n");
           parent_id=getpid();
           printf("MY  PID -- %d\n", parent_id);
-          printf("PARENT: PID моего потомка %d\n",counter);
+          printf("PARENT: PID my child %d\n",counter);
           printf("Waiting for child process to call exit()...\n");
           child_id=waitpid(counter,NULL,WUNTRACED);
           printf("Child status %d\n",child_id);
