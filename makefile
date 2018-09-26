@@ -1,3 +1,3 @@
  
 all:
-	g++ lab1.c
+	gcc lab1.c
